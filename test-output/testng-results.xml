@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-27T13:27:03 IST" name="Default suite" finished-at="2023-11-27T13:27:17 IST" duration-ms="13653">
+    <groups>
+      <group name="regression">
+        <method signature="Groups.Login()[pri:2, instance:TestNg2.Groups@3d5c822d]" name="Login" class="TestNg2.Groups"/>
+        <method signature="Groups.search()[pri:3, instance:TestNg2.Groups@3d5c822d]" name="search" class="TestNg2.Groups"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="Groups.CloseApp()[pri:4, instance:TestNg2.Groups@3d5c822d]" name="CloseApp" class="TestNg2.Groups"/>
+        <method signature="Groups.Login()[pri:2, instance:TestNg2.Groups@3d5c822d]" name="Login" class="TestNg2.Groups"/>
+        <method signature="Groups.OpenApp()[pri:1, instance:TestNg2.Groups@3d5c822d]" name="OpenApp" class="TestNg2.Groups"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2023-11-27T13:27:03 IST" name="Default test" finished-at="2023-11-27T13:27:17 IST" duration-ms="13653">
+      <class name="TestNg2.Groups">
+        <test-method signature="OpenApp()[pri:1, instance:TestNg2.Groups@3d5c822d]" started-at="2023-11-27T13:27:03 IST" name="OpenApp" finished-at="2023-11-27T13:27:15 IST" duration-ms="11794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApp -->
+        <test-method signature="Login()[pri:2, instance:TestNg2.Groups@3d5c822d]" started-at="2023-11-27T13:27:15 IST" name="Login" finished-at="2023-11-27T13:27:16 IST" duration-ms="1508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="search()[pri:3, instance:TestNg2.Groups@3d5c822d]" started-at="2023-11-27T13:27:16 IST" name="search" finished-at="2023-11-27T13:27:16 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method signature="CloseApp()[pri:4, instance:TestNg2.Groups@3d5c822d]" started-at="2023-11-27T13:27:16 IST" name="CloseApp" finished-at="2023-11-27T13:27:17 IST" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+      </class> <!-- TestNg2.Groups -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
